@@ -1,25 +1,8 @@
-# Core dependencies
-streamlit>=1.20.0
-pandas>=1.4.0
-numpy>=1.20.0
-matplotlib>=3.5.0
-plotly>=5.8.0
-seaborn>=0.11.0
-nltk>=3.7
-scikit-learn>=1.0.0
-scipy>=1.7.0
-tqdm>=4.60.0
-joblib>=1.1.0
-
-# Optional dependencies - install as needed
-# pip install sentence-transformers>=2.2.0  # For text embeddings
-# pip install umap-learn>=0.5.0  # For dimension reduction
-# pip install hdbscan>=0.8.0  # For clustering
-# pip install wordcloud>=1.8.0  # For visualization
-# pip install openai>=1.0.0  # For OpenAI embeddings
-# pip install torch>=2.0.0  # For PyTorch-based models
-# pip install transformers>=4.30.0  # For Hugging Face models
-
-# Large dependencies - can lead to memory errors, install separately if needed
-# pip install tensorflow>=2.12.0  # For Universal Sentence Encoder 
-# pip install tensorflow_hub>=0.14.0  # Required with tensorflow 
+streamlit
+pandas
+numpy
+scikit-learn
+openai
+plotly
+seaborn
+nltk
